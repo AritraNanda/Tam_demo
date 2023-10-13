@@ -46,7 +46,7 @@ p{
     padding-right: 5px;
 }
 
-@media (min-width: 577px) and (max-width: 800px) {
+@media (max-width: 800px) {
     p {
         margin-left: 15px;
         margin-right: 5px;
