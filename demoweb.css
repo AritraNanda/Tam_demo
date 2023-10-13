@@ -45,6 +45,21 @@ p{
     padding-left: 5px;
     padding-right: 5px;
 }
+@media (max-width: 815px) {
+    p {
+        margin-left: 20px;
+    }
+}
+@media (min-width: 577px) and (max-width: 800px) {
+    p {
+        margin-left: 15px;
+    }
+}
+@media (min-width: 801px) and (max-width: 900px) {
+    p {
+        margin-left: 10px;
+    }
+}
 .imgmain{
     background-image: url(demoweb.png);
     background-size: contain;
