@@ -93,6 +93,16 @@ p{
     width: 80vw;
     align-items: center;
 }
+@media (max-width: 550px) {
+    .f1 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        height: auto;
+        width: 80vw;
+        align-items: center;
+    }
+}
 
 .f1 img{
     height:15vw;
